@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /* *Copyright (C) Kardusinfo.com - All Rights Reserved
+  ~                             * Unauthorized copying of this file, via any medium is strictly prohibited
+  ~                             * Proprietary and confidential
+  ~                             * Written by Candra Prasetya <candraramadhanp@outlook.com>, 2018.
+  ~                             */
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="16dp"
+    android:layout_margin="16dp"
+    android:background="@drawable/bg_card">
+
+
+    <ImageView
+        android:id="@+id/logoClub"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="4dp"
+        tools:src="@drawable/fav_match" />
+
+    <TextView
+        android:id="@+id/namaClub"
+        android:layout_marginLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        tools:text="Candra Ramadhan" />
+
+</LinearLayout>
+

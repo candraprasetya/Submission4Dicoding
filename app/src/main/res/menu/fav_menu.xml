@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /* *Copyright (C) Kardusinfo.com - All Rights Reserved
+  ~                             * Unauthorized copying of this file, via any medium is strictly prohibited
+  ~                             * Proprietary and confidential
+  ~                             * Written by Candra Prasetya <candraramadhanp@outlook.com>, 2018.
+  ~                             */
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_favourite"
+        android:icon="@drawable/fav_match"
+        android:iconifiedByDefault="false"
+        android:title="@string/team_Favorites"
+        app:showAsAction="ifRoom" />
+</menu>

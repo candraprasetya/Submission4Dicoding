@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /* *Copyright (C) Kardusinfo.com - All Rights Reserved
+  ~                             * Unauthorized copying of this file, via any medium is strictly prohibited
+  ~                             * Proprietary and confidential
+  ~                             * Written by Candra Prasetya <candraramadhanp@outlook.com>, 2018.
+  ~                             */
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".fragment.ClubFragment">
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/spinnerLeague"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/spinnerLeague">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvTeams"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /* *Copyright (C) Kardusinfo.com - All Rights Reserved
+  ~                             * Unauthorized copying of this file, via any medium is strictly prohibited
+  ~                             * Proprietary and confidential
+  ~                             * Written by Candra Prasetya <candraramadhanp@outlook.com>, 2018.
+  ~                             */
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_prev"
+        android:icon="@drawable/prev_match"
+        android:title="@string/prev_match"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_favorite_match"
+        android:icon="@drawable/fav_match"
+        android:title="@string/team_Favorites"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_next"
+        android:icon="@drawable/next_match"
+        android:title="@string/next_match"
+        app:showAsAction="ifRoom"/>
+</menu>
